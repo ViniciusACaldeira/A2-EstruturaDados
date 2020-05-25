@@ -1,9 +1,38 @@
 # A2-EstruturaDados
 Sistema de Gerenciamento de Escola para atividade 2 de Estrutura de Dados
+
+#COMPONENTE DA EQUIPE:
+  Vinicius Araujo Caldeira.
+  RA: 3481716
+  
+#FUNÇÕES UTILIZADAS:
+
+Para ficar mais didático, separados de acordo com o Menu Principal:
+[1] cadastrarAluno( )
+    - telaSucesso( )
+    - adicionar( )
+  
+[2] e [3] alterarAluno( )
+             - buscarAluno( )
+             - pegaRA( )
+             - lancaNota( )
+             - alteraNota( )
+  
+[4] relatorioAluno( )
+      - montaMatriz( )
+      - procuraConceito( )
+  
+ [5] cadastrarDisciplina( )
+
+#ESTRUTURAS UTILIZADAS:
+Foi utilizado nesse trabalho as seguintes estruturas: Vetor, Matriz e Fila.
+
+
 #Explicação de funcionalidades.
 
 MENU SISTEMA GERENCIAMENTO ESCOLAR
- [1] Cadastrar Novo Aluno. 
+ [1] Cadastrar Novo Aluno.
+  Somente rodará o sistema de cadastro caso haja anteriormente cadastrado a Disciplina pelo processo [5].
   [1.1] Nome do Aluno.
   [1.2] RA do aluno.
   [1.3] Disciplina, o sistema tem a inteligencia de indentificar qual o selecionado pelo usuário (Código ou nome) e atribuir os valores cadastrados. 
